@@ -1,0 +1,25 @@
+{
+    "name": "nestjs-sslcommerz",
+    "version": "1.0.0",
+    "description": "A NestJS module for SSLCommerz integration",
+    "main": "dist/index.js",
+    "scripts": {
+      "build": "tsc",
+      "prepare": "npm run build"
+    },
+    "dependencies": {
+      "@nestjs/common": "^9.0.0",
+      "@nestjs/config": "^2.0.0",
+      "sslcommerz": "^1.0.0"
+    },
+    "devDependencies": {
+      "typescript": "^4.9.0"
+    },
+    "files": [
+      "dist"
+    ],
+    "keywords": ["nestjs", "sslcommerz", "payment", "module"],
+    "author": "mdsami",
+    "license": "MIT"
+  }
+  
